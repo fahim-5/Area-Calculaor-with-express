@@ -1,5 +1,4 @@
-
-
+```markdown
 # Area Calculator
 
 A simple web application to calculate the areas of circles and rectangles. Built with **HTML**, **CSS**, and **Express.js**, this project demonstrates basic form handling and backend integration.
@@ -59,13 +58,10 @@ A clean interface with forms for entering dimensions.
 
 ![Home Page Screenshot](https://github.com/yourusername/area-calculator/blob/main/assets/homepage.jpg?raw=true)
 
-
-
 ## Technologies Used
 - **Frontend**: HTML, CSS
 - **Backend**: Node.js, Express.js
 
-
 ## Author
 [Fahim Faysal](https://github.com/fahim-5)
-
+```
