@@ -57,7 +57,7 @@ AreaCalculator/
 ### Home Page
 A clean interface with forms for entering dimensions.
 
-![Home Page Screenshot](https://github.com/yourusername/area-calculator/blob/main/assets/homepage.png?raw=true)
+![Home Page Screenshot](https://github.com/yourusername/area-calculator/blob/main/assets/homepage.jpg?raw=true)
 
 
 
