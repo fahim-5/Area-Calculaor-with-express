@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #e0f7fa; /* Soft light blue */
+    color: #444;
     margin: 0;
     padding: 20px;
     line-height: 1.6;
@@ -11,26 +11,35 @@ body {
 /* Header */
 h1 {
     text-align: center;
-    color: #444;
+    color: #2c3e50; /* Darker gray for contrast */
     margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: 600;
 }
 
 /* Form Container */
 .form-container {
-    background: #fff;
+    background: #ffffff;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Subtle shadow */
     margin: 20px auto;
-    padding: 20px;
-    max-width: 400px;
+    padding: 30px;
+    max-width: 450px; /* Increased max width for better form */
+    transition: transform 0.3s ease; /* Smooth hover transition */
+}
+
+.form-container:hover {
+    transform: translateY(-5px); /* Slight hover effect */
 }
 
 /* Form Header */
 .form-container h2 {
     text-align: center;
-    color: #007BFF;
+    color: #27ae60; /* Bright green for form header */
     margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 /* Labels and Inputs */
@@ -39,45 +48,56 @@ label {
     margin-bottom: 8px;
     font-weight: bold;
     color: #555;
+    font-size: 1.1em; /* Slightly larger text for labels */
 }
 
 input {
-    width: calc(100% - 20px);
-    padding: 10px;
+    width: 100%;
+    padding: 12px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
+    border-radius: 8px; /* Rounded input edges */
+    font-size: 1.1em; /* Larger input text */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for focus */
+}
+
+input:focus {
+    border-color: #27ae60; /* Green border on focus */
+    box-shadow: 0 0 8px rgba(39, 174, 96, 0.5); /* Subtle green shadow */
+    outline: none; /* Removes default outline */
 }
 
 /* Buttons */
 button {
     display: block;
     width: 100%;
-    padding: 10px;
-    background-color: #007BFF;
+    padding: 12px;
+    background-color: #27ae60; /* Vivid green */
     color: #fff;
-    font-size: 16px;
+    font-size: 1.2em;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #2ecc71; /* Lighter green on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
 }
 
 /* Footer Link */
 a {
     display: block;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     text-decoration: none;
-    color: #007BFF;
+    color: #27ae60; /* Green color for link */
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 a:hover {
-    color: #0056b3;
+    color: #2ecc71; /* Lighter green on hover */
 }
