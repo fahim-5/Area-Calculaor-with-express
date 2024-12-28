@@ -52,10 +52,15 @@ AreaCalculator/
 ## Screenshot
 ![Home Page Screenshot](https://github.com/fahim-5/Area-Calculator-with-express/raw/main/assets/homepage.jpg)
 
-
 ## Technologies Used
-- **Frontend**: HTML, CSS
-- **Backend**: Node.js, Express.js
+- **Frontend**:
+  ![HTML Badge](https://img.shields.io/badge/HTML-5-orange)
+  ![CSS Badge](https://img.shields.io/badge/CSS-3-blue)
+
+- **Backend**:
+  ![Node.js Badge](https://img.shields.io/badge/Node.js-green)
+  ![Express.js Badge](https://img.shields.io/badge/Express.js-blue)
+
 
 ## Author
 [Fahim Faysal](https://github.com/fahim-5)
